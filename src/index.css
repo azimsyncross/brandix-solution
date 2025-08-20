@@ -1,0 +1,47 @@
+/* Import Google Font - Inter is a great modern choice */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* Import Tailwind base styles */
+@import "tailwindcss";
+
+/* Define a modern theme using CSS variables */
+@theme {
+  --font-sans: 'Inter', sans-serif;
+
+  --color-background: theme(colors.zinc.900);
+  --color-foreground: theme(colors.zinc.50);
+
+  --color-card: theme(colors.zinc.800);
+  --color-card-foreground: theme(colors.zinc.50);
+
+  --color-popover: theme(colors.zinc.800);
+  --color-popover-foreground: theme(colors.zinc.50);
+
+  --color-primary: theme(colors.teal.500);
+  --color-primary-foreground: theme(colors.zinc.50);
+  
+  --color-secondary: theme(colors.amber.500);
+  --color-secondary-foreground: theme(colors.zinc.900);
+
+  --color-muted: theme(colors.zinc.500);
+  --color-muted-foreground: theme(colors.zinc.300);
+
+  --color-accent: theme(colors.teal.600);
+  --color-accent-foreground: theme(colors.zinc.50);
+
+  --color-destructive: theme(colors.rose.600);
+  --color-destructive-foreground: theme(colors.zinc.50);
+
+  --color-border: theme(colors.zinc.700);
+  --color-input: theme(colors.zinc.700);
+  --color-ring: theme(colors.teal.400);
+
+  --radius: 0.5rem;
+}
+
+/* Apply base styles to the body */
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
