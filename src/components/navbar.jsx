@@ -67,7 +67,7 @@ export default function Navbar() {
                 <img
                   src={logoSrc}
                   alt="Logo"
-                  className="h-10 w-auto block rounded-xl"
+                  className="h-24 w-auto block rounded-xl"
                 />
               </div>
             </motion.div>
