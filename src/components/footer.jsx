@@ -40,7 +40,7 @@ export default function Footer() {
                 <img
                   src="/logo.png"
                   alt="BRANDIX SOLUTIONS Logo"
-                  className="h-16 w-auto filter drop-shadow-lg"
+                  className="h-28 w-auto filter drop-shadow-lg"
                 />
                 <div className="absolute -inset-2 bg-primary rounded-lg opacity-20 blur"></div>
               </div>
